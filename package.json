@@ -1,0 +1,17 @@
+{
+  "name": "inversion-control",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "tsnd --ignore-watch node_modules --transpile-only index.ts"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
